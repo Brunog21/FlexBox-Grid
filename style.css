@@ -50,7 +50,6 @@ img {
 }
 
 .foto {
-  grid-column: 2;
   width: 100%;
 }
 
@@ -71,20 +70,10 @@ img {
   border-radius: 6%;
 }
 
-.vantagens {
-  background: #fff;
-  padding: 2%;
-}
-
-.vantagens-item p {
-  grid-column: 2;
-}
-
-.subtitulo {
-  background-color: aliceblue;
+.tituloVantagens {
   font-size: 64px;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.2);
+  color: #e6e6fa;
   text-align: right;
   padding: 40px;
   align-self: center;
