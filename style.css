@@ -1,0 +1,91 @@
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.grid h2 {
+  margin-bottom: 5px;
+}
+
+.grid p {
+  margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 70px;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex a {
+  background: white;
+  padding: 15px 40px;
+  font-size: large;
+  text-decoration: none;
+  color: inherit;
+}
+
+.titulo {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.foto {
+  grid-column: 2;
+  width: 100%;
+}
+
+.conteudoProduto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2%;
+  text-align: right;
+  align-self: center;
+}
+
+.verMais {
+  background-color: red;
+  color: white;
+  padding: 15px 40px;
+  align-self: flex-end;
+  border-radius: 6%;
+}
+
+.vantagens {
+  background: #fff;
+  padding: 2%;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.subtitulo {
+  background-color: aliceblue;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
