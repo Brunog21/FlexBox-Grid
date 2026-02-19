@@ -7,9 +7,10 @@ p {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: white;
+  background-color: #e6ccb2;
   max-width: 70%;
   margin: 0 auto;
+  color: #5c4033;
 }
 
 .grid h2 {
@@ -29,16 +30,16 @@ p {
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #f2f0f5;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex a {
-  background: white;
+  background: #e6ccb2;
   padding: 15px 40px;
   font-size: large;
   text-decoration: none;
-  color: inherit;
+  color: #5c4033;
 }
 
 .titulo {
@@ -77,4 +78,25 @@ img {
   text-align: right;
   padding: 40px;
   align-self: center;
+}
+
+.vantagensLista {
+  padding: 20px;
+  background: #b8a9c9;
+}
+
+.vantagensItens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 80px;
 }
