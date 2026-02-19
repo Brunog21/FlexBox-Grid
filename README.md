@@ -1,9 +1,3 @@
-Excelente iniciativa disponibilizar o projeto no GitHub Pages! Ter o site no ar faz toda a diferença para quem for visitar o seu repositório, pois permite testar o resultado na hora, sem precisar baixar o código.
-
-Adicionei um destaque logo no início do README para que o link seja a primeira coisa que os visitantes (ou avaliadores) vejam. Aqui está o seu arquivo atualizado:
-
-Markdown
-
 # Café Miau
 
 Um projeto front-end desenvolvido com o objetivo principal de estudar e aplicar os conceitos estruturais de **CSS Flexbox** e **CSS Grid Layout**. O site simula a _landing page_ de um adorável café temático de gatos, oferecendo uma interface limpa e organizada.
